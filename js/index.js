@@ -109,7 +109,6 @@ function showcards(){
     
 
 var getimage;
-
 let index;
 
 
@@ -273,15 +272,11 @@ function createflipcard(){
 
 
 
-
-
-
-       
-
 var j;
 var a;
-
 var count =8;
+
+
 function playgame(i){
     
     try {
@@ -337,26 +332,6 @@ function playgame(i){
         }
           
 
-         
-
-            
-
-        
-    
-        
-     
-     
-   
-
-
-        
-  
-  
-        
-
-
-  
-      
             
     } 
     catch (error) {
