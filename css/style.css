@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box !important;
+  }
+
+  #flip{
+
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    width: 40%;
+
+
+    gap: 1vw;
+
+
+  }
+  
+  #flip-card0,  
+  #flip-card1, 
+  #flip-card2, 
+  #flip-card3,  
+  #flip-card4, 
+  #flip-card5,  
+  #flip-card6, 
+  #flip-card7,  
+  #flip-card8, 
+  #flip-card9,  
+  #flip-card10, 
+  #flip-card11, 
+  #flip-card12,  
+  #flip-card13, 
+  #flip-card14,  
+  #flip-card15
+  {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    perspective: 1000px;
+
+
+
+    
+  }
+  
+  #flip-card-inner {
+    
+    display: inline-block;
+    position: relative;
+    width: 100% !important;
+    height: 100% !important;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+    
+
+  }
+  
+
+
+
+  #flip-card0:hover #flip-card-inner {
+    transform: rotateY(180deg);
+    
+  }
+
+  #flip-card1:hover #flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  #flip-card2:hover #flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  #flip-card3:hover #flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  #flip-card4:hover #flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  #flip-card5:hover #flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  #flip-card6:hover #flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  #flip-card7:hover #flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  #flip-card8:hover #flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  #flip-card9:hover #flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  #flip-card10:hover #flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  #flip-card11:hover #flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  #flip-card12:hover #flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  #flip-card13:hover #flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  #flip-card14:hover #flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  #flip-card15:hover #flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+
+
+
+  #flip-card-front, #flip-card-back {
+    position: absolute;
+    width: 100% !important;
+    height: 100% !important;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+    
+  }
+  
+  #flip-card-front {
+    color: black;
+    /* transform: rotateY(180deg); */
+    
+
+  }
+  
+  #flip-card-back {
+    position: relative;
+/* 
+    transform: rotateY(180deg); */
+  }
+  
+  .flip-card-back2 {
+    transform: rotateY(180deg);
+    background-color: rgb(214, 109, 22);
+  }
