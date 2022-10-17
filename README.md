@@ -1,6 +1,4 @@
 # Memory card game (web)
 
 
-
-https://user-images.githubusercontent.com/30021708/155086988-1d60e878-93e2-44c9-83f6-61a9edec1767.mp4
-
+[![Memory card game (web)](https://img.youtube.com/vi/6hsjOtAoeq4/0.jpg)](http://www.youtube.com/watch?v=6hsjOtAoeq4)
